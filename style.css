@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+header {
+    background-color: rgba(32, 10, 7, 0.7);
+}
+
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    padding: 0 20px;
+}
+
+.containerNav {
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    margin: 1rem;
+}
+
+.titulo {
+    color: white;
+}
+
+.Buscar {
+    background-color:#E0EEEE;
+    border: 2px solid #130c0c;
+    border-radius: 20px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+#txtBusca {
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    height: 32px;
+    width: 191px;
+    margin: 0.3rem;
+    outline: none;
+
+}
+
+.btnBuscar {
+    border: none;
+    height: 30px;
+    border-radius: 0 7px 7px 0;
+    width: 71px;
+    font-weight: bold;
+    background: rgb(0,0,0, 0.5);
+    border-radius: 0px 20px 20px 0px;
+}
+
+
+.tela {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
